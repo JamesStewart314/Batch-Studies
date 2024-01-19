@@ -41,4 +41,4 @@ goto menu
 :5
 echo. & echo Thanks for Using this Menu! Press any key to close...
 pause >nul
-color & cls & exit
+color & cls
