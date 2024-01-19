@@ -11,7 +11,6 @@ set /p operator="Choose an Operator (+, -, *, /, %%) : "
 set /p value_2="Enter Another Integer Value : "
 set /a result=%value_1% %operator% %value_2%
 
-:: Clean the Screen :
 cls
 
 echo Result:
