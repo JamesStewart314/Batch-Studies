@@ -2,7 +2,7 @@
 
 :: A simple calculator code to practice batch programming.
 
-title Calculator - %time:~0,-4%
+title Calculator - %date% %time:~0,-3%
 cls
 color a
 
