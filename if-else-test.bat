@@ -27,4 +27,4 @@ echo.
 echo Checking if chrome is open...
 tasklist /FI "imagename eq chrome.exe" | find "chrome.exe" > nul
 
-if %errorlevel% == 0 (echo Chrome is Open!) else (echo Chrome is not Open!)
+if %errorlevel% == 0 (echo Chrome is Open^!) else (echo Chrome is not Open!)
