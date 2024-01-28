@@ -13,9 +13,9 @@ echo.
 call :colors
 echo.
 
-set /p "letter_color=Input a digit from 0 to 9 to be the letter color> "
+set /p "letter_color=Input a digit from 0 ^-^> 9 / A ^-^> F to be the letter color> "
 echo.
-set /p "bg_color=Input a digit from 0 to 9 to be the background color> "
+set /p "bg_color=Input a digit from 0 ^-^> 9 / A ^-^> F to be the background color> "
 echo.
 set /p "title=Input a title to the Window> "
 
