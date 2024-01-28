@@ -1,4 +1,5 @@
 @echo off
+chcp 65001 > nul
 
 
 if exist myconfig.bat (call myconfig.bat & goto :makeconfig) else (goto :makeconfig)
