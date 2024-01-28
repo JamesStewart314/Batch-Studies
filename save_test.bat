@@ -1,6 +1,7 @@
 @echo off
 chcp 65001 > nul
 
+
 if exist myconfig.bat (call myconfig.bat) else (goto :makeconfig)
 
 color %bg_color%%letter_color% & title %title%
