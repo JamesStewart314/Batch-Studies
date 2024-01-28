@@ -10,7 +10,6 @@ echo.
 call :colors
 echo.
 
-set "errorlevel=layer_1"
 set /p "letter_color=Input a digit from 0 to 9 to be the letter color> "
 echo.
 set /p "bg_color=Input a digit from 0 to 9 to be the background color> "
