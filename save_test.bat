@@ -1,8 +1,9 @@
 @echo off
 chcp 65001 > nul
 
+if exist myconfig.bat (call myconfig.bat) else (goto :makeconfig)
 
-if exist myconfig.bat (call myconfig.bat & goto :makeconfig) else (goto :makeconfig)
+color %bg_color%%letter_color% & title %title%
 
 :makeconfig
 echo PROPERTIES PANEL:
@@ -25,8 +26,6 @@ REM Saving The File:
     echo set letter_color=%letter_color%
     echo set bg_color=%bg_color%
     echo set title=%title%
-
-    echo color %bg_color%%letter_color% ^& title %title%
 
 ) > myconfig.bat
 
