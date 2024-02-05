@@ -12,8 +12,9 @@ setlocal enabledelayedexpansion
     for /l %%a in (1, 1, %1) do (call :sep %%a)
 
     echo.
-    echo %odd%
-    echo %even%
+    echo Odd: %odd%
+    echo.
+    echo Even: %even%
 
     goto :eof
 
