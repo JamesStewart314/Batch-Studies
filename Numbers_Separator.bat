@@ -1,5 +1,12 @@
 @echo off
 
+::
+:: This code separates the even and odd numbers in a given range
+::
+:: Usage Example: " cmd /c "C:\Users\MyUser\Downloads\Numbers_Separator.bat" 5 "
+::                          /^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\
+::                         Hypothetical Path of this Program on your Computer
+
 setlocal enabledelayedexpansion
 
     for /l %%a in (1, 1, %1) do (call :sep %%a)
