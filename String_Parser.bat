@@ -1,9 +1,10 @@
 ::
-:: This code separates the even and odd numbers in a given range
+:: This code analyzes a string, determining the number of characters, digits and categorizing it into
+::               "Alphabetical Sting", "Numeric String" or "Alphanumeric String."
 ::
 :: Usage Example: cmd /c "C:\Users\MyUser\Downloads\String_Parser.bat" this is a example of string    to perform  the test
-::                          /^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\
-::                         Hypothetical Path of this Program on your Computer
+::                        /^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\
+::                  | Hypothetical Path of this Program on your Computer |
 ::
 
 @echo off
