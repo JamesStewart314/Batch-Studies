@@ -5,6 +5,7 @@
 
 @echo off
 chcp 65001 > nul
+color 0A
 
 setlocal enabledelayedexpansion
 
@@ -23,7 +24,7 @@ setlocal enabledelayedexpansion
     echo Current Total Ram Usage: %total_ram_usage%
     echo Press Enter to Close the Program...
     pause > nul
-    goto :eof
+    color 07 & goto :eof
 
     :sum_func
     title RAM Monitor - %time:~0,-3%
