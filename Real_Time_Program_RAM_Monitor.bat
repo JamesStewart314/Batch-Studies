@@ -54,7 +54,7 @@ setlocal enabledelayedexpansion
     :loop
     if "!total_ram_usage:~%number_size%, 1!" neq "" (set /a number_size+=1 & goto :loop)
 
-    choice /t 1 /c "YN" /n /m "" /d Y 1> nul & REM sleep of 1 sec
+    timeout /nobreak /t 1 > nul & REM sleep of 1 sec
 
     if !number_size! geq 7 (if !number_size! leq 9 (goto :GB))
     if !number_size! geq 4 (if !number_size! leq 6 (goto :MB))
