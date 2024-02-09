@@ -28,6 +28,14 @@ setlocal enabledelayedexpansion
 
     :Eval_Ram
     tasklist | find /i "%program_imagename%" 1> "%tmp%\ram_program_data.tmp"
+
+    if %errorlevel% equ 1 (
+        cls
+        echo Program Closed...
+        timeout /nobreak /t 2 > nul
+        goto :Eval_Ram
+    )
+
     set /a total_ram_usage=0
     for /f "tokens=5 usebackq" %%a in ("%tmp%\ram_program_data.tmp") do (call :sum_func %%a)
  
@@ -62,13 +70,16 @@ setlocal enabledelayedexpansion
 
     :GB
     cls & echo.
-    echo Ram Usage of !program_imagename! in Real Time : !total_ram_usage:~0, 1!,!total_ram_usage:~1, 2! Gb
+    set /a gb_memory=!total_ram_usage!/(1024*1024)
+    echo Ram Usage of !program_imagename! in Real Time : !gb_memory!,!total_ram_usage:~1, 2! Gb
     echo (Press CTRL ^+ C to End the Program...)
     goto :Eval_Ram
 
     :MB
     cls & echo.
-    echo Ram Usage of !program_imagename! in Real Time : !total_ram_usage:~0, -3!,!total_ram_usage:~-3, -5! Mb
+    echo !total_ram_usage!
+    set /a mb_memory=!total_ram_usage!/1024
+    echo Ram Usage of !program_imagename! in Real Time : !mb_memory!,!total_ram_usage:~-3, -1! Mb
     echo (Press CTRL ^+ C to End the Program...)
     goto :Eval_Ram
 
