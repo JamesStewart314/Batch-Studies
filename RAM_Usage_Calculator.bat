@@ -33,7 +33,7 @@ setlocal enabledelayedexpansion
     set value=%1
     set value=%value:.=%
 
-    if %errorlevel% == 0 (
+    if %errorlevel% equ 0 (
         if "!value!" neq ".=" (
             set /a total_ram_usage+=!value! > nul
         )
