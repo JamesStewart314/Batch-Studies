@@ -21,7 +21,7 @@ setlocal enabledelayedexpansion
     for /f "tokens=5 usebackq" %%a in ("%tmp%\ram_data.tmp") do (call :sum_func %%a)
 
     echo.    
-    echo Current Total Ram Usage: %total_ram_usage%
+    echo Current Total Ram Usage: %total_ram_usage% 
     echo Press Enter to Close the Program...
     pause > nul
     color 07 & goto :eof
