@@ -21,6 +21,7 @@ setlocal enabledelayedexpansion
 
     echo.    
     echo Current Total Ram Usage: %total_ram_usage%
+    echo Press Enter to Close the Program...
     pause > nul
     goto :eof
 
