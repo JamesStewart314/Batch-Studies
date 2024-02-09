@@ -1,7 +1,7 @@
 ::
 :: This code separates the even and odd numbers in a given range
 ::
-:: Usage Example: cmd /c "C:\Users\MyUser\Downloads\Numbers_Separator.bat" this is a example of string    to perform  the test
+:: Usage Example: cmd /c "C:\Users\MyUser\Downloads\String_Parser.bat" this is a example of string    to perform  the test
 ::                          /^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\
 ::                         Hypothetical Path of this Program on your Computer
 ::
