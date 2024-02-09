@@ -16,7 +16,7 @@ setlocal enabledelayedexpansion
     echo Enter a Full Process Imagename (Ex.: chrome.exe) :
     set /p "program_imagename=>>> "
 
-    tasklist | find /i "%program_imagename%" > nul
+    tasklist | find /i "%program_imagename%" 1> nul
 
     if %errorlevel% equ 1 (
         echo.
