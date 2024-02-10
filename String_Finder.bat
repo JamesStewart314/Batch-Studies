@@ -8,8 +8,8 @@
 ::                                          | Hypothetical path of this .bat file on your computer |
 ::
 ::
-::       After opening the program correctly, enter respectively the root path where searches for the desired string pattern
-::             must be searched (e.g.: C:\Users\MyUser\some_random_folder) and the targeted string pattern itself.
+::    After opening the program correctly, type in double quotes the root path where you search for the desired string pattern
+::      must be searched (e.g.: ' "C:\Users\MyUser\some_random_folder" ') and the target string pattern itself, respectively.
 ::
 
 @echo off
