@@ -59,7 +59,6 @@ setlocal enabledelayedexpansion
             ) else (
                 mode con: lines=40 cols=40
             )
-        
     )
 
     :Result
