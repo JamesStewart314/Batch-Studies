@@ -27,7 +27,7 @@ setlocal enabledelayedexpansion
     echo What Path the Search Should Start^?
     set /p "search_local=>>> "
     echo Input the Desired String to Search
-    set /p "desired_string_pattern= >>> "
+    set /p "desired_string_pattern=>>> "
 
     title Searching . . .
 
