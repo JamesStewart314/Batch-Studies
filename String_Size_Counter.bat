@@ -1,9 +1,9 @@
 ::
-::         This code analyzes a string, determining the number of spaces and total string size
+::                       This code analyzes a string, determining the number of spaces and total string size
 ::
-:: Usage Example: ' cmd /c "C:\Users\MyUser\Downloads\String_Size_Counter.bat" this is a example of string    to perform  the test '
-::                          /^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\
-::                        | Hypothetical Path of this Program on your Computer |
+::   Usage Example: ' cmd /c "C:\Users\MyUser\Downloads\String_Size_Counter.bat" this is a example of string    to perform  the test '
+::                            /^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\
+::                          | Hypothetical Path of this Program on your Computer |
 ::
 
 @echo off
