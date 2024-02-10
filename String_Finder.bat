@@ -1,15 +1,15 @@
 ::
-::                                                      !!! ATTENTION !!!
-::          Despite being a general terminal script, this code was designed to run specifically on the Windows conhost.
+::                                                             !!! ATTENTION !!!
+::               Despite being a general terminal script, this code was designed to run specifically on the Windows conhost.
 ::
-::                     You can open it directly through cmd.exe or Windows Powershell with the help of the 
-::                          command ' conhost "C:\Users\MyUser\Desktop\MyFolder\String_Search.bat" '.
-::                                            //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\
-::                                          | Hypothetical path of this .bat file on your computer |
+::                          You can open it directly through cmd.exe or Windows Powershell with the help of the 
+::                               command ' conhost "C:\Users\MyUser\Desktop\MyFolder\String_Search.bat" '.
+::                                                 //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\
+::                                               | Hypothetical path of this .bat file on your computer |
 ::
 ::
-::    After opening the program correctly, type in double quotes the root path where you search for the desired string pattern
-::     must be searched (e.g.: ' "C:\Users\MyUser\some_random_folder" ') and the target string pattern itself, respectively.
+::  After opening the program correctly, type in double quotes the root path where the search for the desired string pattern will be carried out
+::           must be executed (e.g.: ' "C:\Users\MyUser\some_random_folder" ') and the target string pattern itself, respectively.
 ::
 
 @echo off
