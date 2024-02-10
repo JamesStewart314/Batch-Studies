@@ -33,13 +33,15 @@ setlocal enabledelayedexpansion
 
     for /l %%a in (50, 2, 100) do (mode con: lines=20 cols=%%a)
 
+    echo ^• Final Search Result ^: >> "%temp%\String_Search_Result.txt" & echo. >> "%temp%\String_Search_Result.txt"
+
     for /r %search_local% %%a in (*.txt *.py *.pyw *.c *.cpp *.java *.bat) do (
         find /n /i "%desired_string_pattern%" "%%a" 1> "%temp%\String_Search_Info.txt"
         call :Verify
     )
 
-    type nul >> "%temp%\String_Search_Result.txt" & type nul >> "%temp%\String_Search_Result.txt"
-    echo ^• !occurrences! Matching Results Were Found^! >> "%temp%\String_Search_Result.txt"
+    echo. >> "%temp%\String_Search_Result.txt" & echo. >> "%temp%\String_Search_Result.txt"
+    echo ^• Matching Results in !occurrences! Different Files Were Found^! >> "%temp%\String_Search_Result.txt"
 
     :Window
     findstr /n "^" "%temp%\String_Search_Result.txt" | find /c ":" > "%temp%\String_Search_Lines.txt"
@@ -54,10 +56,10 @@ setlocal enabledelayedexpansion
         )
         
     ) else (
-        if  %number_lines% geq 40 (
+        if  %number_lines% geq 50 (
             for /l %%n in (100, -1, %number_lines%) do (mode con: lines=%%n cols=%%n)
             ) else (
-                mode con: lines=40 cols=40
+                mode con: lines=40 cols=90
             )
     )
 
