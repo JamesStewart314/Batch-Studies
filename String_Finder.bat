@@ -9,7 +9,7 @@
 ::
 ::
 ::    After opening the program correctly, type in double quotes the root path where you search for the desired string pattern
-::      must be searched (e.g.: ' "C:\Users\MyUser\some_random_folder" ') and the target string pattern itself, respectively.
+::     must be searched (e.g.: ' "C:\Users\MyUser\some_random_folder" ') and the target string pattern itself, respectively.
 ::
 
 @echo off
