@@ -50,16 +50,16 @@ setlocal enabledelayedexpansion
 
     if %number_lines% geq 100 (
         if %number_lines% leq 200 (
-            for /l %%n in (100, 1, %number_lines%) do (mode con: lines=%%n cols=%%n)
+            for /l %%n in (100, 1, %number_lines%) do (mode con: lines=%%n)
         ) else (
-            for /l %%n in (100, 1, 200) do (mode con: lines=%%n cols=%%n)
+            for /l %%n in (100, 1, 200) do (mode con: lines=%%n)
         )
         
     ) else (
         if  %number_lines% geq 50 (
-            for /l %%n in (100, -1, %number_lines%) do (mode con: lines=%%n cols=%%n)
+            for /l %%n in (100, -1, %number_lines%) do (mode con: lines=%%n)
             ) else (
-                mode con: lines=40 cols=90
+                mode con: lines=40
             )
     )
 
