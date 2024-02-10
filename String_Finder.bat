@@ -64,7 +64,7 @@ setlocal enabledelayedexpansion
     )
 
     :Result
-    cls
+    title Finished & cls
     type "%temp%\String_Search_Result.txt" | more
     timeout /nobreak -1
 
