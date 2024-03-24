@@ -3,7 +3,7 @@
 ::               Despite being a general terminal script, this code was designed to run specifically on the Windows conhost.
 ::
 ::                          You can open it directly through cmd.exe or Windows Powershell with the help of the 
-::                               command ' conhost "C:\Users\MyUser\Desktop\MyFolder\String_Search.bat" '.
+::                               command ' conhost "C:\Users\"My User"\Desktop\"My Random Folder"\String_Search.bat" '.
 ::                                                 //^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\\
 ::                                               | Hypothetical path of this .bat file on your computer |
 ::
