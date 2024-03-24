@@ -1,9 +1,9 @@
 ::
-::                  This code checks if a positive integer is prime and displays the result in the terminal.
+::  This code checks if a positive integer is prime and displays the result in the terminal.
 ::
-::  Usage Example: cmd /c "C:\Users\MyUser\Downloads\Is_Prime.bat" 27
-::                        /^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\
-::              |   Hypothetical Path of this Program on your Computer   |
+::          Usage Example: cmd /c "C:\Users\MyUser\Downloads\Is_Prime.bat" 27
+::                                /^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\
+::                       |   Hypothetical Path of this Program on your Computer   |
 ::
 
 @echo off
