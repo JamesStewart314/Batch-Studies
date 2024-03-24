@@ -2,7 +2,7 @@
 ::                           This code converts all characters in a string to uppercase or lowercase
 ::                                          and prints the result to the terminal.
 ::
-::  Usage Example: cmd /c "C:\Users\MyUser\Downloads\Convert_to_Upper_and_Lower.bat" THis iS a EXaMplE of STring    to PERFORM  the TEST!!!&
+::  Usage Example: cmd /c "C:\Users\MyUser\Downloads\Convert_to_Upper_and_Lower.bat" THis iS a EXaMplE of STring  to PERFORM  the TEST.
 ::                         /^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\
 ::                        |   Hypothetical Path of this Program on your Computer   |
 ::
