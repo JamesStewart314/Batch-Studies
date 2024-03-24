@@ -2,7 +2,7 @@
 ::                        This code analyzes a string, counting the number of Upper and Lower cases 
 ::                             and printing the result formatted as a small list in the terminal
 ::
-::  Usage Example: cmd /c "C:\Users\MyUser\Downloads\Upper_and_Lower_Cases.bat" THis iS a EXaMplE of STring    to PERFORM  the TEST!!!&
+::  Usage Example: cmd /c "C:\Users\MyUser\Downloads\Upper_and_Lower_Cases.bat" THis iS aN EXaMplE of STring    to PERFORM  the TEST!!!&
 ::                         /^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\
 ::                        | Hypothetical Path of this Program on your Computer |
 ::
