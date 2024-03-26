@@ -13,6 +13,9 @@ setlocal enabledelayedexpansion
 
     set number=%1
 
+    if !number! leq 1 (echo • [31mIt's not Prime[0m & goto :eof)
+    if !number! equ 2 (echo • [32mIs Prime[0m & goto :eof)
+
     set /a remainder=!number!%%2
 
     if !remainder! equ 0 (echo • [31mIt's not Prime[0m & goto :eof)
